@@ -1,0 +1,21 @@
+body.detail-page { background: #080808; color: #f9f5f4; }
+.detail-shell { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+.detail-nav { padding: 28px 0; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(231,174,179,.25); }
+.detail-nav img { width:74px; height:44px; object-fit:cover; mix-blend-mode:screen; }
+.back-link { color:#e7aeb3; text-transform:uppercase; letter-spacing:2px; font-size:11px; }
+.detail-hero { padding:90px 0 55px; max-width:760px; }
+.detail-number,.detail-kicker { color:#e7aeb3; text-transform:uppercase; letter-spacing:4px; font-size:11px; }
+.detail-page h1 { font:400 clamp(48px,8vw,94px)/.95 Georgia,serif; margin:24px 0; letter-spacing:-3px; }
+.detail-page h1 em { color:#e7aeb3; }
+.detail-intro { color:#b9adae; font-size:17px; line-height:1.8; max-width:620px; }
+.detail-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; padding:30px 0 100px; }
+.detail-card { border:1px solid rgba(231,174,179,.25); padding:28px; min-height:190px; }
+.detail-card h2 { font:400 28px Georgia,serif; margin:0 0 12px; }
+.detail-card p { color:#b9adae; line-height:1.7; margin:0; }
+.detail-gallery { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; padding:0 0 100px; }
+.detail-gallery img { width:100%; height:360px; object-fit:cover; border:1px solid rgba(231,174,179,.25); cursor:zoom-in; }
+.detail-gallery video { width:100%; height:520px; object-fit:cover; border:1px solid rgba(231,174,179,.25); background:#111; }
+.detail-cta { border-top:1px solid rgba(231,174,179,.25); padding:35px 0 80px; display:flex; justify-content:space-between; gap:20px; align-items:center; }
+.detail-cta p { color:#b9adae; }
+.detail-button { display:inline-block; padding:16px 22px; background:#e7aeb3; color:#171011; text-transform:uppercase; letter-spacing:2px; font-size:10px; }
+@media(max-width:700px){.detail-grid,.detail-gallery{grid-template-columns:1fr}.detail-gallery img{height:300px}.detail-hero{padding-top:60px}.detail-cta{display:block}.detail-button{margin-top:18px}}

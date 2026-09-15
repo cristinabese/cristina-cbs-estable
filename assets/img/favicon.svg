@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">CBS — Cristina Beltrán Serrano</title>
+  <rect width="64" height="64" rx="10" fill="#080808"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="8" fill="none" stroke="#e7aeb3" stroke-opacity=".45"/>
+  <text x="32" y="43" text-anchor="middle" textLength="48" lengthAdjust="spacingAndGlyphs"
+        font-family="Georgia,'Times New Roman',serif" font-size="30" fill="#e7aeb3">CBS</text>
+</svg>
