@@ -1,7 +1,8 @@
 body.detail-page { background: #080808; color: #f9f5f4; }
 .photo-page .detail-gallery { display: none; }
 
-.julia-feature {
+.julia-feature,
+.victoria-feature {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +12,8 @@ body.detail-page { background: #080808; color: #f9f5f4; }
   border-top: 1px solid rgba(231, 174, 179, .25);
 }
 
-.julia-illustration {
+.julia-illustration,
+.victoria-illustration {
   display: block;
   width: min(300px, 72vw);
   height: auto;
@@ -28,7 +30,8 @@ body.detail-page { background: #080808; color: #f9f5f4; }
   .julia-illustration { animation: none; }
 }
 
-.julia-feature h2 {
+.julia-feature h2,
+.victoria-feature h2 {
   display: inline-block;
   margin: 0;
   padding-bottom: 12px;
@@ -66,12 +69,14 @@ body.detail-page { background: #080808; color: #f9f5f4; }
 }
 
 @media (max-width: 600px) {
-  .julia-feature {
+  .julia-feature,
+  .victoria-feature {
     flex-direction: column;
     text-align: center;
   }
 
-  .julia-illustration {
+  .julia-illustration,
+  .victoria-illustration {
     margin-bottom: 6px;
   }
 
