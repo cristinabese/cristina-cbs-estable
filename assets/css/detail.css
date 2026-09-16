@@ -110,6 +110,12 @@ body.detail-page {
   text-shadow: 0 8px 22px rgba(255, 184, 192, .2);
 }
 .detail-intro { color:#b9adae; font-size:17px; line-height:1.8; max-width:620px; }
+.web-project-link { display:flex; align-items:center; gap:24px; width:min(720px,100%); margin:12px 0 50px; padding:22px 26px; border:1px solid rgba(255,184,192,.35); border-radius:18px; background:rgba(231,174,179,.06); transition:transform .35s ease, border-color .35s ease, box-shadow .35s ease; }
+.web-project-link:hover { transform:translateY(-4px); border-color:#ffb8c0; box-shadow:0 0 28px rgba(255,184,192,.25); }
+.web-project-link img { width:76px; height:76px; object-fit:contain; flex:none; }
+.web-project-link h2 { margin:0 0 6px; color:#fff8f6; font:400 clamp(24px,4vw,38px)/1.1 Georgia,serif; }
+.web-project-link p { margin:0; color:#e7aeb3; font-size:14px; word-break:break-word; }
+@media(max-width:600px){.web-project-link{gap:16px;padding:18px}.web-project-link img{width:58px;height:58px}}
 .detail-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; padding:30px 0 100px; }
 .detail-card { border:1px solid rgba(231,174,179,.55); padding:28px; min-height:190px; box-shadow:0 0 24px rgba(231,174,179,.18), inset 0 0 18px rgba(231,174,179,.05); transition:.25s; }
 .detail-card:hover { border-color:#ffb8c0; box-shadow:0 0 34px rgba(255,184,192,.55), inset 0 0 24px rgba(231,174,179,.1); transform:translateY(-4px); }
