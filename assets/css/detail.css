@@ -2,8 +2,12 @@ body.detail-page { background: #080808; color: #f9f5f4; }
 .photo-page .detail-gallery { display: none; }
 
 .julia-feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(24px, 5vw, 56px);
   padding: 30px 0 100px;
-  text-align: center;
+  text-align: left;
   border-top: 1px solid rgba(231, 174, 179, .25);
 }
 
@@ -11,7 +15,7 @@ body.detail-page { background: #080808; color: #f9f5f4; }
   display: block;
   width: min(300px, 72vw);
   height: auto;
-  margin: 0 auto 34px;
+  margin: 0;
 }
 
 .julia-feature h2 {
@@ -52,6 +56,15 @@ body.detail-page { background: #080808; color: #f9f5f4; }
 }
 
 @media (max-width: 600px) {
+  .julia-feature {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .julia-illustration {
+    margin-bottom: 6px;
+  }
+
   .julia-gallery {
     grid-template-columns: 1fr;
     width: min(320px, 80vw);
