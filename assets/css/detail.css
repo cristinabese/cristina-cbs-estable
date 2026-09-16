@@ -1,4 +1,5 @@
 body.detail-page { background: #080808; color: #f9f5f4; }
+.photo-page .detail-gallery { display: none; }
 .detail-shell { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
 .detail-nav { padding: 28px 0; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(231,174,179,.25); }
 .detail-nav img { width:74px; height:44px; object-fit:cover; mix-blend-mode:screen; }
