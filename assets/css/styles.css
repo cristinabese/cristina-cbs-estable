@@ -495,9 +495,9 @@ img, video { display: block; }
   inset: 0;
   background-image:
     linear-gradient(90deg, rgba(0, 0, 0, .58) 15%, rgba(0, 0, 0, .28), rgba(0, 0, 0, .4)),
-    url("../img/cristina-hero-sm.jpg?v=20260908");
-  background-position: 68% 40%;
-  background-size: auto 125%;
+    url("../img/cristina-hero-new.jpg?v=20260916");
+  background-position: 50% 38%;
+  background-size: cover;
   background-repeat: no-repeat;
   opacity: .95;
   filter: blur(1.5px);
@@ -509,8 +509,7 @@ img, video { display: block; }
   .hero-image {
     background-image:
     linear-gradient(90deg, rgba(0, 0, 0, .58) 15%, rgba(0, 0, 0, .28), rgba(0, 0, 0, .4)),
-      image-set(url("../img/cristina-hero-sm.webp?v=20260908") type("image/webp"),
-                url("../img/cristina-hero-sm.jpg?v=20260908")  type("image/jpeg"));
+      url("../img/cristina-hero-new.jpg?v=20260916");
   }
 }
 
