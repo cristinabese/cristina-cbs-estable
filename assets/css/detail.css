@@ -117,7 +117,7 @@ body.detail-page {
 .web-project-link > section > img { display:none !important; }
 .web-project-link h2 { margin:0 0 6px; color:#fff8f6; font:400 clamp(24px,4vw,38px)/1.1 Georgia,serif; }
 .web-project-link p { margin:0; color:#e7aeb3; font-size:14px; word-break:break-word; }
-.web-project-link p img { width:22px; height:22px; object-fit:contain; vertical-align:middle; margin-right:7px; }
+.web-project-link p img { display:inline-block; width:22px; height:22px; object-fit:contain; vertical-align:middle; margin-right:7px; }
 @media(max-width:600px){.web-project-link{gap:16px;padding:18px}.web-project-link img{width:58px;height:58px}}
 .detail-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; padding:30px 0 100px; }
 .detail-card { border:1px solid rgba(231,174,179,.55); padding:28px; min-height:190px; box-shadow:0 0 24px rgba(231,174,179,.18), inset 0 0 18px rgba(231,174,179,.05); transition:.25s; }
