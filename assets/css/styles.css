@@ -680,6 +680,7 @@ img, video { display: block; }
   margin: 50px 0 0 auto;
   overflow: hidden;
   border: 1px solid var(--rose-line);
+  transition: border-color .45s var(--ease), box-shadow .45s var(--ease);
 }
 
 .second-photo img {
@@ -688,6 +689,19 @@ img, video { display: block; }
   object-fit: cover;
   opacity: .52;
   filter: blur(2px);
+  transform: scale(1);
+  transition: transform .8s var(--ease), opacity .55s ease, filter .55s ease;
+}
+
+.second-photo:hover {
+  border-color: #ffb8c0;
+  box-shadow: 0 0 0 2px rgba(255, 184, 192, .35), 0 0 34px rgba(255, 184, 192, .48);
+}
+
+.second-photo:hover img {
+  opacity: .88;
+  filter: blur(0);
+  transform: scale(1.18);
 }
 
 .second-photo figcaption {
