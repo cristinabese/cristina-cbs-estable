@@ -126,6 +126,8 @@ body.detail-page {
 .detail-card p { color:#b9adae; line-height:1.7; margin:0; }
 .detail-gallery { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; padding:0 0 100px; }
 .detail-gallery img { width:100%; height:360px; object-fit:cover; border:1px solid rgba(231,174,179,.25); cursor:zoom-in; }
+.social-gallery img { filter:grayscale(1); transition:filter .45s ease, transform .45s ease, border-color .45s ease, box-shadow .45s ease; }
+.social-gallery img:hover { filter:grayscale(0); transform:translateY(-4px); border-color:#ffb8c0; box-shadow:0 0 0 2px rgba(255,184,192,.35), 0 18px 34px rgba(255,184,192,.28); }
 .detail-gallery video { width:100%; height:520px; object-fit:cover; border:1px solid rgba(231,174,179,.25); background:#111; }
 .detail-cta { border-top:1px solid rgba(231,174,179,.25); padding:35px 0 80px; display:flex; justify-content:space-between; gap:20px; align-items:center; }
 .detail-cta p { color:#ffb8c0; text-shadow:0 0 18px rgba(255,184,192,.75); font-size:18px; }
