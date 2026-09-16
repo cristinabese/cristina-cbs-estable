@@ -1429,7 +1429,7 @@ a.project-card:hover {
 
     background-image:
       linear-gradient(90deg, rgba(0, 0, 0, .68) 16%, rgba(0, 0, 0, .28) 52%, rgba(0, 0, 0, .06)),
-      url("../img/cristina-hero.jpg?v=20260908");
+      url("../img/cristina-hero-new.jpg?v=20260916");
     background-position: 0 0, 100% 40%;          /* capa 1: degradado · capa 2: foto */
     background-size: 100% 100%, var(--foto) auto;
 
@@ -1445,8 +1445,7 @@ a.project-card:hover {
     .hero-image {
       background-image:
         linear-gradient(90deg, rgba(0, 0, 0, .68) 16%, rgba(0, 0, 0, .28) 52%, rgba(0, 0, 0, .06)),
-        image-set(url("../img/cristina-hero.webp?v=20260908") type("image/webp"),
-                  url("../img/cristina-hero.jpg?v=20260908")  type("image/jpeg"));
+        url("../img/cristina-hero-new.jpg?v=20260916");
       background-size: 100% 100%, var(--foto) auto;
     }
   }
