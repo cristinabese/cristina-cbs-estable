@@ -4,6 +4,9 @@ body.detail-page {
     linear-gradient(145deg, #21191b 0%, #171113 58%, #24191d 100%);
   color: #f9f5f4;
 }
+
+.detail-reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease var(--detail-delay), transform .7s ease var(--detail-delay); }
+.detail-reveal.detail-visible { opacity: 1; transform: none; }
 .photo-page .detail-gallery { display: none; }
 
 .julia-feature,
