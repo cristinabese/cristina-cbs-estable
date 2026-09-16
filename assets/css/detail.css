@@ -113,6 +113,8 @@ body.detail-page {
 .web-project-link { display:flex; align-items:center; gap:24px; width:min(720px,100%); margin:12px 0 50px; padding:22px 26px; border:1px solid rgba(255,184,192,.35); border-radius:18px; background:rgba(231,174,179,.06); transition:transform .35s ease, border-color .35s ease, box-shadow .35s ease; }
 .web-project-link:hover { transform:translateY(-4px); border-color:#ffb8c0; box-shadow:0 0 28px rgba(255,184,192,.25); }
 .web-project-link img { width:76px; height:76px; object-fit:contain; flex:none; }
+.web-project-link > img,
+.web-project-link > section > img { display:none !important; }
 .web-project-link h2 { margin:0 0 6px; color:#fff8f6; font:400 clamp(24px,4vw,38px)/1.1 Georgia,serif; }
 .web-project-link p { margin:0; color:#e7aeb3; font-size:14px; word-break:break-word; }
 .web-project-link p img { width:22px; height:22px; object-fit:contain; vertical-align:middle; margin-right:7px; }
