@@ -16,6 +16,16 @@ body.detail-page { background: #080808; color: #f9f5f4; }
   width: min(300px, 72vw);
   height: auto;
   margin: 0;
+  animation: julia-float 4.5s ease-in-out infinite;
+}
+
+@keyframes julia-float {
+  0%, 100% { transform: translateY(0) rotate(-1deg); }
+  50% { transform: translateY(-9px) rotate(1deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .julia-illustration { animation: none; }
 }
 
 .julia-feature h2 {
