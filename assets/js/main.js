@@ -87,6 +87,8 @@
 
   /* -- 3. Aparición al hacer scroll ------------------------------------------ */
 
+  $$('.main > section, main > section, .service-card, .package-card, .project-card, .process-step, .contact-card, .form-block')
+    .forEach(function (el) { el.setAttribute('data-reveal', ''); });
   var items = $$('[data-reveal], [data-rule]');
 
   if (reduceMotion || !('IntersectionObserver' in window)) {
