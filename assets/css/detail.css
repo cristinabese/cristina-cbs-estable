@@ -42,7 +42,7 @@ body.detail-page { background: #080808; color: #f9f5f4; }
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px;
-  width: min(640px, 84vw);
+  width: min(520px, 76vw);
   margin: 0 auto 110px;
 }
 
@@ -77,7 +77,7 @@ body.detail-page { background: #080808; color: #f9f5f4; }
 
   .julia-gallery {
     grid-template-columns: 1fr;
-    width: min(320px, 80vw);
+    width: min(280px, 74vw);
   }
 }
 .detail-shell { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
