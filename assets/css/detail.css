@@ -44,9 +44,13 @@ body.detail-page { background: #080808; color: #f9f5f4; }
 .julia-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
+  gap: 14px;
   width: min(520px, 76vw);
-  margin: 0 auto 110px;
+  margin: 0 auto 55px;
+}
+
+.julia-feature {
+  padding-bottom: 20px;
 }
 
 .julia-gallery img {
