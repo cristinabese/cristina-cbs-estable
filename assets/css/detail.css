@@ -9,13 +9,15 @@ body.detail-page { background: #080808; color: #f9f5f4; }
 .detail-page h1 em { color:#e7aeb3; }
 .detail-intro { color:#b9adae; font-size:17px; line-height:1.8; max-width:620px; }
 .detail-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; padding:30px 0 100px; }
-.detail-card { border:1px solid rgba(231,174,179,.25); padding:28px; min-height:190px; }
+.detail-card { border:1px solid rgba(231,174,179,.55); padding:28px; min-height:190px; box-shadow:0 0 24px rgba(231,174,179,.18), inset 0 0 18px rgba(231,174,179,.05); transition:.25s; }
+.detail-card:hover { border-color:#ffb8c0; box-shadow:0 0 34px rgba(255,184,192,.55), inset 0 0 24px rgba(231,174,179,.1); transform:translateY(-4px); }
 .detail-card h2 { font:400 28px Georgia,serif; margin:0 0 12px; }
 .detail-card p { color:#b9adae; line-height:1.7; margin:0; }
 .detail-gallery { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; padding:0 0 100px; }
 .detail-gallery img { width:100%; height:360px; object-fit:cover; border:1px solid rgba(231,174,179,.25); cursor:zoom-in; }
 .detail-gallery video { width:100%; height:520px; object-fit:cover; border:1px solid rgba(231,174,179,.25); background:#111; }
 .detail-cta { border-top:1px solid rgba(231,174,179,.25); padding:35px 0 80px; display:flex; justify-content:space-between; gap:20px; align-items:center; }
-.detail-cta p { color:#b9adae; }
-.detail-button { display:inline-block; padding:16px 22px; background:#e7aeb3; color:#171011; text-transform:uppercase; letter-spacing:2px; font-size:10px; }
+.detail-cta p { color:#ffb8c0; text-shadow:0 0 18px rgba(255,184,192,.75); font-size:18px; }
+.detail-button { display:inline-block; padding:16px 22px; background:#ffb8c0; color:#171011; text-transform:uppercase; letter-spacing:2px; font-size:10px; box-shadow:0 0 25px rgba(255,184,192,.7); }
+.detail-button:hover { background:#ffd5d9; box-shadow:0 0 38px rgba(255,184,192,.95); transform:translateY(-2px); }
 @media(max-width:700px){.detail-grid,.detail-gallery{grid-template-columns:1fr}.detail-gallery img{height:300px}.detail-hero{padding-top:60px}.detail-cta{display:block}.detail-button{margin-top:18px}}
