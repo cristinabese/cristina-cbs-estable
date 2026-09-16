@@ -7,7 +7,7 @@ body.detail-page { background: #080808; color: #f9f5f4; }
   align-items: center;
   justify-content: center;
   gap: clamp(24px, 5vw, 56px);
-  padding: 30px 0 100px;
+  padding: 30px 0 42px;
   text-align: left;
   border-top: 1px solid rgba(231, 174, 179, .25);
 }
