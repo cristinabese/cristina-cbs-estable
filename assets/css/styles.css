@@ -39,8 +39,8 @@
 
   --rose-line:   rgba(231, 174, 179, .45);
   --rose-line-2: rgba(231, 174, 179, .35);
-  --rose-tint:   rgba(231, 174, 179, .025);
-  --rose-glow:   rgba(231, 174, 179, .4);
+  --rose-tint:   rgba(231, 174, 179, .06);
+  --rose-glow:   rgba(231, 174, 179, .55);
   --hairline:    rgba(255, 255, 255, .12);
 
   --serif: Georgia, "Times New Roman", serif;
@@ -62,7 +62,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  background: radial-gradient(circle at 82% 8%, rgba(231,174,179,.12), transparent 24%), radial-gradient(circle at 8% 42%, rgba(115,57,70,.18), transparent 26%), var(--ink);
+  background: radial-gradient(circle at 82% 8%, rgba(231,174,179,.2), transparent 30%), radial-gradient(circle at 8% 42%, rgba(115,57,70,.24), transparent 30%), linear-gradient(145deg, #21191b 0%, var(--ink) 58%, #24191d 100%);
   color: var(--paper);
   font-family: var(--sans);
   overflow-x: hidden;
