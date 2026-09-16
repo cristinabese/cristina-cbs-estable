@@ -1082,6 +1082,8 @@ a.project-card:hover {
 }
 
 .package-card:hover .package-cta::after { transform: scaleX(1); }
+.packages-cta-wrap { display:flex; justify-content:center; padding:42px 0 8px; }
+.packages-cta { font-size:12px; }
 
 
 /* == 14. Cómo trabajamos =================================================== */
