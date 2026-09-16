@@ -96,7 +96,13 @@ body.detail-page { background: #080808; color: #f9f5f4; }
 .detail-hero { padding:90px 0 55px; max-width:760px; }
 .detail-number,.detail-kicker { color:#e7aeb3; text-transform:uppercase; letter-spacing:4px; font-size:11px; }
 .detail-page h1 { font:400 clamp(48px,8vw,94px)/.95 Georgia,serif; margin:24px 0; letter-spacing:-3px; }
-.detail-page h1 em { color:#e7aeb3; }
+.detail-page h1 em {
+  display: inline-block;
+  color: #e7aeb3;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffb8c0;
+  text-shadow: 0 8px 22px rgba(255, 184, 192, .2);
+}
 .detail-intro { color:#b9adae; font-size:17px; line-height:1.8; max-width:620px; }
 .detail-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; padding:30px 0 100px; }
 .detail-card { border:1px solid rgba(231,174,179,.55); padding:28px; min-height:190px; box-shadow:0 0 24px rgba(231,174,179,.18), inset 0 0 18px rgba(231,174,179,.05); transition:.25s; }
